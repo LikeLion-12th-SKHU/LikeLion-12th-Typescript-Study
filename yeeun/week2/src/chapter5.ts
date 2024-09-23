@@ -33,3 +33,41 @@ const user3 = {
   name: "아무개",
   role: Role.GUEST, // 게스트
 };
+
+// 문자열 열거형
+
+enum Language {
+  korean = "ko",
+  english = "en",
+}
+
+// enum Role {
+//   ADMIN,
+//   USER,
+//   GUEST,
+// }
+
+// enum Language {
+//   korean = "ko",
+//   english = "en",
+// }
+
+// const user1 = {
+//   name: "이정환",
+//   role: Role.ADMIN, // 0
+//   language: Language.korean, // "ko"
+// };
+
+// var Role;
+// (function (Role) {
+//     Role[Role["ADMIN"] = 0] = "ADMIN";
+//     Role[Role["USER"] = 1] = "USER";
+//     Role[Role["GUEST"] = 2] = "GUEST";
+// })(Role || (Role = {}));
+// var Language;
+// (function (Language) {
+//     Language["korean"] = "ko";
+//     Language["english"] = "en";
+//     Language["japanese"] = "jp";
+// })(Language || (Language = {}));
+// const user1 = {
