@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", //변환되는 js코드가 사용할 버전 나타냄
+    "module": "ESNext", //변환되는 js코드가 사용할 모듈 시스템 정의
+    "outDir": "dist", //컴파일 된 js코드가 어디에 위치할 지 설정
+    "strict": true, //엄격한 파일 검사
+    "moduleDetection": "force" //자동으로 ts파일들을 개별 모듈로 취급
+  },
+  "ts-node": {
+    "esm": true
+  }, //tsx src/index.ts 실행 가능
+  "include": ["src"] //tsc가 어떤 폴더 안에 있는 ts파일들을 컴파일 할 지 설정
+}
