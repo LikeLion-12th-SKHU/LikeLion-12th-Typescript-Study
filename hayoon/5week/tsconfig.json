@@ -9,5 +9,5 @@
   "ts-node": {
     "esm": true
   },
-  "include": ["src", "../3week/src/chapter8.ts"]
+  "include": ["src"]
 }
